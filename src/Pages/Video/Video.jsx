@@ -1,9 +1,13 @@
 import React from 'react'
 import './Video.css'
-
+import PlayVideo  from '../../Components/PlayVideo/playVideo'
+import Recommended from '../../Components/Recommended/Recommended'
 const Video = () => {
   return (
-    <div>Video</div>
+    <div className='play-container'>
+      <PlayVideo/>
+      <Recommended/>
+    </div>
   )
 }
 
